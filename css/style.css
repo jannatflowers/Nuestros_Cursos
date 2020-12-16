@@ -1,0 +1,114 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Work Sans', sans-serif;
+	color: #fff;
+}
+
+img{
+	width: 100%;
+}
+/*header start*/
+header{
+background-image:url(image/banne1r.png);
+	background-repeat: no-repeat;
+background-position: right;	
+
+}
+/*header_top end*/
+.header-top{
+}
+.container1{
+	width: 90%;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.logo{
+	width: 12%;
+	float: left;
+}
+.logo h1{
+	margin: 0;
+}
+.logo span{
+	color: #ff3946;}
+.menu{
+	width: 68%;
+	float: left;
+}
+.menu ul{
+list-style: none;
+margin-top: 30px;
+float: right;
+}
+.menu ul li{
+float: left;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	display: inline-block;
+	margin-right: 30px;
+	color: #fff;
+	padding: 10px 0px;
+	transition: 0.3s;
+	position: relative;
+}
+
+.menu ul li a:before{
+	content: "";
+	position: absolute;
+	border-bottom: 2px solid #fff;
+	bottom: 0;
+	left: 50%;
+	right: 50%;
+	transition: 0.5s ease;
+
+}
+.menu ul li a:hover::before {
+    left: 0%;
+    right: 0%;
+}
+.menu ul li a:hover {
+	color: #F9C200;
+	left: 0;
+	top: 0;
+}
+.contact_header{
+	width: 20%;
+	float: right;
+	margin-top: 30px;
+}
+.contact_header button{
+ border: 1px solid #fff;
+padding: 12px 35px;
+margin-left: 90px;
+border-radius: 20px;
+background-color: transparent;
+}
+.contact_header button a{
+text-decoration: none;
+text-transform: capitalize;
+font-size: 15px;
+font-weight: 700;
+color: #fff;
+display: block;
+
+}
+.contact_header button a:hover{
+	color:#F9C200;
+}
+/*header_top end*/
+/*banner start*/
+.banner{
+
+}
+.bannertitle{
+
+}
+.bannertitle h1{
+	text-align: center;
+font-size: 55px;
+margin-top: 60px;
+}
